@@ -1,0 +1,18 @@
+[project]
+name = "multimodrag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.2",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.17",
+    "langchain-text-splitters>=1.1.1",
+    "paddleocr[all]>=3.3.3",
+    "paddlepaddle>=3.3.0",
+    "pillow>=12.1.1",
+    "pymupdf>=1.27.1",
+    "pyreadline3>=3.5.4",
+    "riposte>=0.5.1",
+]
